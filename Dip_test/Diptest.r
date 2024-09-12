@@ -1,6 +1,6 @@
 
-#stomach_expression_GenesofInterest is the file containing TPM levels for various individuals in the stomach
-y <- read.table("stomach_expression_GenesofInterest", header = TRUE)
+#vagina_expression_GenesofInterest is the file containing TPM levels for various individuals in the vagina
+y <- read.table("vagina_expression_GenesofInterest", header = TRUE)
 library("diptest")
 x = y[, -1]
 result <- data.frame(
