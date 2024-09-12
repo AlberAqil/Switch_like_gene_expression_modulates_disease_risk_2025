@@ -1,10 +1,11 @@
 This directory contains the following three files:
 
-1) Diptest.r \n
+1) Diptest.r
+   
 This is an R script written to perform the dip test of unimodality on the TPM distribution of genes across individuals.
 
-2) stomach_expression_mean_gt_10.csv \n
+3) stomach_expression_mean_gt_10.csv \n
 This is the input file for the R script. It contains TPM levels in the stomach for multiple genes (columns) across multiple individuals (rows).
 
-3) Diptest_output.csv \n
+4) Diptest_output.csv \n
 The output of the R script when run with "stomach_expression_mean_gt_10.csv" as input.
