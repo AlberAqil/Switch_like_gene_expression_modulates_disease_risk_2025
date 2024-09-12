@@ -9,7 +9,7 @@ tissue_names <- read.csv("NumberOfInds_per_Tissue_Non_sex_specific",header=F) %>
   
 analyze_tissue <- function(tissue) {
   # Construct the file name
-  file_name <- paste0(tissue, "__bimodal_tpm")
+  file_name <- paste0(tissue, "_bimodal_genes_TPM")
 
   # Read the data
   data <- read_tsv(file_name)
@@ -47,4 +47,3 @@ results <- long_data %>%
 for (tissue in tissue_names) {
   analyze_tissue(tissue)
 }
-
