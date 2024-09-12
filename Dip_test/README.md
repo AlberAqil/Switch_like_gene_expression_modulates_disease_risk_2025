@@ -7,4 +7,4 @@ This directory contains the following three files:
  This is the input file for the R script. It contains TPM levels in the stomach for multiple genes (columns) across multiple individuals (rows).
 
 3) Diptest_output.csv  
- The output of the R script when run with "stomach_expression_mean_gt_10.csv" as input.
+ The output of the R script when run with "vagina_expression_GenesofInterest" as input.
