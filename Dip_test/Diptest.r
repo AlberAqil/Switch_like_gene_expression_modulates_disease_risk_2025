@@ -1,8 +1,8 @@
 
-#stomach_expression_mean_gt_10 is the file containing TPM levels for various individuals in the stomach
-x <- read.csv("stomach_expression_mean_gt_10", header = TRUE)
+#stomach_expression_GenesofInterest is the file containing TPM levels for various individuals in the stomach
+y <- read.table("stomach_expression_GenesofInterest", header = TRUE)
 library("diptest")
-
+x = y[, -1]
 result <- data.frame(
   Column = colnames(x),
   p_value = sapply(1:ncol(x), function(i) {
