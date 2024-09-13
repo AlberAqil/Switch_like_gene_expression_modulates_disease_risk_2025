@@ -7,10 +7,10 @@ This repository contains scripts and data for analyzing switch-like gene express
 
 ## Repository structure
 
-- Dip_test/: Contains the R script for conducting the dip test to identify bimodal expression.
-- Sex_bias/: Contains the R script for analyzing sex-biased gene expression.
-- Confounders/: Contains the R script for measuring the correlation between gene expression levels and confounding variables.
-- Binary_encoding/: Contains the R script for binary encoding of gene expression states (on/off).
+- [Dip_test/](Dip_test/): Contains the R script for conducting the dip test to identify bimodal expression.
+- [Sex_bias/](Sex_bias/): Contains the R script for analyzing sex-biased gene expression.
+- [Confounders/](Confounders/): Contains the R script for measuring the correlation between gene expression levels and confounding variables.
+- [Binary_encoding/](Binary_encoding/): Contains the R script for binary encoding of gene expression states (on/off).
 
 The README files within each directory detail the demo and instructions for use for each code.
 
