@@ -11,5 +11,5 @@ For each tissue, it processes a file containing TPM values across individuals fr
  File containing TPM values for switch-like genes in the mammary tissue from the breast. In principle, we need a similar file for all tissues in NumberOfInds_per_Tissue_Non_sex_specific.
 This file is deposited here for illustrative purposes.
 
-4) breast_mammary_tissue_analysis_results.csv
+4) breast_mammary_tissue_analysis_results.csv  
    File containing results for sex-bias analysis for the breast mammary tissue. In principle, when files containing TPM values for switch-like genes are processed for each tissue, a similar output file would be generated for each tissue. Here, we only show the output file for one tissue for illustrative purposes.
