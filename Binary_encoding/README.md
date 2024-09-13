@@ -2,7 +2,7 @@
 
 This repository contains an R script for performing binary encoding on gene expression data, facilitating the study of binary traits in disease models.
 
-##This directory contains the following four files:
+## This directory contains the following four files:
 
 1) `Binary_encoding.r`  
  This R script is written to convert the continuous but bimodal distribution of gene expression levels into binary on/off states, such that the switch-like gene is
