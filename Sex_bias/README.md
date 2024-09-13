@@ -1,5 +1,8 @@
 # Sex Bias Analysis in Gene Expression
 
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+[![DOI](https://img.shields.io/badge/DOI-10.1101%2F2024.08.24.609537-blue)](https://doi.org/10.1101/2024.08.24.609537)
+
 This directory contains an R script for analyzing sex bias in gene expression of switch-like genes.
 
 ## This directory contains the following four files:
