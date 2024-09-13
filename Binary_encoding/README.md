@@ -10,5 +10,5 @@ either classified as on or off in a given individual depending on whether their 
 4) gene_dip_positions_stomach.csv  
  An intermediate file containing the positions of the "dip", i.e., the switching threshold.
 
-5) Binary_encoding_stomach.tsv
+5) Binary_encoding_stomach.tsv  
    The output file.
