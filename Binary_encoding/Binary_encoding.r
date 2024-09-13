@@ -5,8 +5,6 @@ library(readr)
 
 
 mydata <- read_tsv("stomach_bimodal_genes_TPM")
-
-# Assuming 'mydata' is your dataframe
 genes <- colnames(mydata)[-(1:2)] # Exclude SEX, and Name columns
 
 # Initialize a dataframe to store results
