@@ -32,3 +32,6 @@ Each script in the subdirectories can be run independently, with detailed instru
 If you use this code, please cite:
 
 Aqil, A. et al. "Switch-like Gene Expression Modulates Disease Susceptibility." BioRxiv, 2024. https://doi.org/10.1101/2024.08.24.609537
+
+## License
+This project is covered under the Apache 2.0 License.
