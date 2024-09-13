@@ -8,7 +8,7 @@ For each tissue, it processes a file containing TPM values across individuals fr
  This is the input file for the R script. It contains a list of tissues shared by both sexes.
 
 3) breast_mammary_tissue_bimodal_genes_TPM  
- File containing TPM values for switch-like genes in the maammary tissue from the breast. In principle, one we need a similar file for all tissues in NumberOfInds_per_Tissue_Non_sex_specific.
+ File containing TPM values for switch-like genes in the mammary tissue from the breast. In principle, we need a similar file for all tissues in NumberOfInds_per_Tissue_Non_sex_specific.
 This file is deposited here for illustrative purposes.
 
 4) breast_mammary_tissue_analysis_results.csv
