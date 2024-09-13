@@ -4,13 +4,13 @@ This directory contains the R script for performing a Dip Test of Unimodality on
 
 ## This directory contains the following three files:
 
-1) Diptest.r  
+1) `Diptest.r`  
  This is an R script written to perform the dip test of unimodality on the TPM distribution of genes across individuals.
 
-2) vagina_expression_GenesofInterest  
+2) `vagina_expression_GenesofInterest`  
  This is the input file for the R script. It contains TPM levels in the vagina for multiple genes (columns) across multiple individuals (rows).
 
-3) Diptest_output.csv  
+3) `Diptest_output.csv`  
  The output of the R script when run with "vagina_expression_GenesofInterest" as input.
 
 ## System Requirements
@@ -31,8 +31,8 @@ This directory contains the R script for performing a Dip Test of Unimodality on
    source("diptest.r")
 ```
 ## Instructions for use
-- Ensure input (vagina_expression_GenesofInterest) is in the same directory as the script.
-- The expected output is Diptest_output.csv.
+- Ensure input `vagina_expression_GenesofInterest` is in the same directory as the script.
+- The expected output is `Diptest_output.csv`.
 - Expected run time: 54 seconds
 
 
