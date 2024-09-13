@@ -28,7 +28,7 @@ This file is deposited here for illustrative purposes.
 1. Install R from [CRAN](https://cran.r-project.org/).
 2. Install the `dplyr`, `readr`, and `effsize` packages:
    ```r
-   install.packages(c("dplyr", "reader", "effsize"))
+   install.packages(c("dplyr", "readr", "effsize"))
 
 ## Demo
 ```r
