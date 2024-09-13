@@ -30,11 +30,11 @@ This file is deposited here for illustrative purposes.
    ```r
    install.packages(c("dplyr", "reader", "effsize"))
 
-## Instructions for use
+## Demo
 ```r
    source("Sexbias.r")
 ```
-## Demo
+## Instructions for use
 - Ensure the inputs are in the same directory as the script.
 - Inputs: NumberOfInds_per_Tissue_Non_sex_specific and files similar to breast_mammary_tissue_bimodal_genes_TPM for each tissue in NumberOfInds_per_Tissue_Non_sex_specific.
 - The expected output: A file similar to breast_mammary_tissue_analysis_results.csv for each tissue in NumberOfInds_per_Tissue_Non_sex_specific.
