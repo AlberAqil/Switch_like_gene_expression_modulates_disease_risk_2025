@@ -1,6 +1,6 @@
 # Sex Bias Analysis in Gene Expression
 
-This repository contains an R script for analyzing sex bias in gene expression of switch-like genes.
+This directory contains an R script for analyzing sex bias in gene expression of switch-like genes.
 
 ## This directory contains the following four files:
 
