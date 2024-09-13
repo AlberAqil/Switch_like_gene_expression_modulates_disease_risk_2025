@@ -1,4 +1,4 @@
-This directory contains the following three files:
+# This directory contains the following three files:
 
 1) Diptest.r  
  This is an R script written to perform the dip test of unimodality on the TPM distribution of genes across individuals.
