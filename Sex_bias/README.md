@@ -1,4 +1,8 @@
-This directory contains the following four files:
+# Sex Bias Analysis in Gene Expression
+
+This repository contains an R script for analyzing sex bias in gene expression and its impact on disease susceptibility.
+
+## This directory contains the following four files:
 
 1) Sexbias.r  
  This R script is written to determine if switch-like genes in a given tissue are sex-biased. This script loops through the list of tissues shared by both sexes (NumberOfInds_per_Tissue_Non_sex_specific).
@@ -13,3 +17,17 @@ This file is deposited here for illustrative purposes.
 
 4) breast_mammary_tissue_analysis_results.csv  
    File containing results for sex-bias analysis for the breast mammary tissue. In principle, when files containing TPM values for switch-like genes are processed for each tissue, a similar output file would be generated for each tissue. Here, we only show the output file for one tissue for illustrative purposes.
+
+## System Requirements
+
+- **R Version**: 4.0.0 or higher
+- **Dependencies**: `limma` package
+
+## Installation Guide
+
+1. Install R from [CRAN](https://cran.r-project.org/).
+2. Install the `dplyr`, `readr`, and `effsize` packages:
+   ```r
+   install.packages(c("dplyr", "reader", "effsize"))
+
+
