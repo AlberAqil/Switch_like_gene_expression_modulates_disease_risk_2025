@@ -26,3 +26,9 @@ install.packages(c("diptest", "dplyr", "readr", "effsize", "lsr"))
 ## Usage and demo
 
 Each script in the subdirectories can be run independently, with detailed instructions provided in the respective README files with subdirectories.
+
+## Citation
+
+If you use this code, please cite:
+
+Aqil, A. et al. "Switch-like Gene Expression Modulates Disease Susceptibility." BioRxiv, 2024. https://doi.org/10.1101/2024.08.24.609537
