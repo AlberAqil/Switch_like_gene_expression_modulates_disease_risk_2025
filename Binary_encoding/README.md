@@ -1,7 +1,7 @@
 This directory contains the following four files:
 
 1) Binary_encoding.r  
- This R script is written to to convert the continuous but bimodal distribution of gene expression levels into binary on/off states, such that the switch-like gene is
+ This R script is written to convert the continuous but bimodal distribution of gene expression levels into binary on/off states, such that the switch-like gene is
 either classified as on or off in a given individual depending on whether their TPM level is above or below a switching threshold.
 
 3) stomach_bimodal_genes_TPM  
