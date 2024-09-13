@@ -29,7 +29,8 @@ cd Switch_like_gene_expression_modulates_disease_susceptibility_2024
 
 ## Installation guide
 
-Install the required R packages as outlined in each subdirectory’s README or use the following to install all packages at once:
+1. Install R from [CRAN](https://cran.r-project.org/).
+2. Install the required R packages as outlined in each subdirectory’s README or use the following to install all packages at once:
 ```r
 install.packages(c("diptest", "dplyr", "readr", "effsize", "lsr"))
 ```
