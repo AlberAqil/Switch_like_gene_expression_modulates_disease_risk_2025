@@ -1,6 +1,6 @@
 # Dip Test for Unimodality
 
-This repository contains the R script for performing a Dip Test of Unimodality on gene expression data to analyze disease susceptibility.
+This directory contains the R script for performing a Dip Test of Unimodality on gene expression data to analyze disease susceptibility.
 
 ## This directory contains the following three files:
 
