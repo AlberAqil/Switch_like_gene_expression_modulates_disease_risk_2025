@@ -20,7 +20,14 @@ The README files within each directory detail the demo and instructions for use 
 - Programming Language: R version 4.0+ is required for all scripts.
 - Packages: Each subdirectory has its own list of required R packages.
 
-## Installation
+## Clone the repository
+
+```bash
+git clone https://github.com/AlberAqil/Switch_like_gene_expression_modulates_disease_susceptibility_2024.git
+cd Switch_like_gene_expression_modulates_disease_susceptibility_2024
+```
+
+## Installation guide
 
 Install the required R packages as outlined in each subdirectory’s README or use the following to install all packages at once:
 ```r
