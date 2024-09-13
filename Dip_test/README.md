@@ -28,7 +28,7 @@ This repository contains the R script for performing a Dip Test of Unimodality o
 
 ## Instructions for use
 ```r
-   install.packages("diptest")
+   source("diptest.r")
 ```
 ## Demo
 - Ensure input (vagina_expression_GenesofInterest) is in the same directory as the script.
