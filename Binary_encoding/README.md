@@ -1,5 +1,8 @@
 # Binary Encoding for Gene Expression Analysis
 
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+[![DOI](https://img.shields.io/badge/DOI-10.1101%2F2024.08.24.609537-blue)](https://doi.org/10.1101/2024.08.24.609537)
+
 This repository contains an R script for performing binary encoding on gene expression data, facilitating the study of binary traits in disease models.
 
 ## This directory contains the following four files:
