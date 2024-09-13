@@ -21,7 +21,7 @@ This file is deposited here for illustrative purposes.
 ## System Requirements
 
 - **R Version**: 4.0.0 or higher
-- **Dependencies**: `limma` package
+- **Dependencies**: `dplyr`, `readr`, and `effsize` packages
 
 ## Installation Guide
 
@@ -30,4 +30,12 @@ This file is deposited here for illustrative purposes.
    ```r
    install.packages(c("dplyr", "reader", "effsize"))
 
-
+## Instructions for use
+```r
+   source("Sexbias.r")
+```
+## Demo
+- Ensure the inputs are in the same directory as the script.
+- Inputs: NumberOfInds_per_Tissue_Non_sex_specific and files similar to breast_mammary_tissue_bimodal_genes_TPM for each tissue in NumberOfInds_per_Tissue_Non_sex_specific.
+- The expected output: A file similar to breast_mammary_tissue_analysis_results.csv for each tissue in NumberOfInds_per_Tissue_Non_sex_specific.
+- Expected run time: 1 minute, 22 seconds
