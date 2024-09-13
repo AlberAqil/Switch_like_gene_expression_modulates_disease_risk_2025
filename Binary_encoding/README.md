@@ -17,7 +17,7 @@ either classified as on or off in a given individual, depending on whether their
 4) `Binary_encoding_stomach.tsv`  
    The output file.
 
-# System Requirements
+## System Requirements
 
 - **R Version**: 4.0.0 or higher
 - **Dependencies**: `dplyr` and `readr` packages
