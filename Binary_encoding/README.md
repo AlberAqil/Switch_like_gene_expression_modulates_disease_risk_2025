@@ -35,8 +35,6 @@ Run the script `Binary_encoding.r`:
    ```r
    source("Binary_encoding.r")
 ```
-##Instructions for use
-
 ## Instructions for use
 - Ensure the input file `stomach_bimodal_genes_TPM` is in the same directory as the script.
 - The expected output: `Binary_encoding_stomach.tsv`.
