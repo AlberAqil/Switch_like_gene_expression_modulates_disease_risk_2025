@@ -26,11 +26,11 @@ This repository contains the R script for performing a Dip Test of Unimodality o
    install.packages("diptest")
  
 
-## Instructions for use
+## Demo
 ```r
    source("diptest.r")
 ```
-## Demo
+## Instructions for use
 - Ensure input (vagina_expression_GenesofInterest) is in the same directory as the script.
 - The expected output is Diptest_output.csv.
 - Expected run time: 54 seconds
