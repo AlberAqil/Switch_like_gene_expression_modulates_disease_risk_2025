@@ -25,7 +25,16 @@ This repository contains the R script for performing a Dip Test of Unimodality o
 2. Install the `diptest` package:
    ```r
    install.packages("diptest")
+ 
 
-## Installation Guide
- ```r
-source('Diptest.r')
+## Instructions for use
+```r
+install.packages("diptest")
+ 
+
+## Instructions for use
+
+
+
+
+
