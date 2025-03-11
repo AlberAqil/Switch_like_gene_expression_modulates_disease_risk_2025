@@ -12,7 +12,6 @@ expression_data <- fread(expression_file)
 metadata <- fread(metadata_file)
 
 ### Filter metadata for pancreas tissue
-# Assuming `metadata_filtered` is already specific to pancreas tissue
 metadata_filtered <- metadata 
 
 ### Filter expression_data for matching samples in metadata
@@ -42,7 +41,6 @@ expression_data <- expression_data[complete_cases, ]  # Filter expression data t
 # Add SAMPID to track samples that made it through
 SAMPID <- merged_data$SAMPID[complete_cases]
 
-### Correct for Continuous Confounders using GAM
 # Perform GAM to correct for confounders
 adjusted_expression <- apply(expression_data[, -1], 2, function(expression) {
   # Perform GAM for each gene
