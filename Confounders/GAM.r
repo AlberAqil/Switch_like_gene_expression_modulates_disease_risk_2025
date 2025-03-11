@@ -4,7 +4,7 @@ library(dplyr)  # For efficient data manipulation
 library(data.table)  # For fast data reading/writing
 
 ### File paths
-expression_file <- "pancreas_expression_GenesofInterest"
+expression_file <- "Pancreas_RawTPM_Input_Testing"
 metadata_file <- "pca_pancreas.csv"
 
 ### Load data
@@ -56,6 +56,6 @@ adjusted_expression <- cbind(SAMPID = SAMPID, adjusted_expression)
 
 ### Save the Adjusted Expression Data
 # Save the final corrected expression matrix
-write.table(adjusted_expression, file = "pancreas_expression_corrected_GAM", sep = "\t", quote = FALSE, row.names = FALSE)
+write.table(adjusted_expression, file = "Pancreas_RawTPM_Output_Testing", sep = "\t", quote = FALSE, row.names = FALSE)
 
 ### End of Script
