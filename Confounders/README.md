@@ -7,33 +7,37 @@ This directory contains an R script to analyze potential confounders in gene exp
 
 ## This directory contains the following three files:
 
-1) `Confounders_colon_transverse.r`  
- This is an R script that calculates the correlation between confounding factors and gene expression levels for switch-like genes.
+1) `GAM.r`  
+ This R script corrects raw log(TPM + 1) for condfounders using residuals from generalized additive models. Instead of using raw confounders, we use PCs derived from confounders to avoid multicollinearity.
 
-2) `colon_transverse_TPM_with_Meta`  
- This is the input file for the R script. It contains TPM levels in the colon for multiple genes (columns) across multiple individuals (rows).
+2) `pca_pancreas.csv`  
+ This is the first input file for the R script. It contains PC scores derived from the confounder matrix for each individual in pancreas.
 
-3) `gene_correlations_colon_transverse.csv`   
- The output of the R script when run with "colon_transverse_TPM_with_Meta" as input.
+3) `Pancreas_RawTPM_Input_Testing`
+   This is the second input file for the R script. It contains the Raw TPM levels for five test genes.
+
+4) `Pancreas_RawTPM_Output_Testing`
+   This is the expected output file containing the confounder-corrected log(TPM + 1) levels.
+
 
 ## System Requirements
 
 - **R Version**: 4.0.0 or higher
-- **Dependencies**: `dplyr` and `lsr` packages 
+- **Dependencies**: `dplyr`, `mgcv`, and `data.table` packages 
 
 ## Installation Guide
 
 1. Install R from [CRAN](https://cran.r-project.org/).
-2.  Install the `dplyr` and `lsr` packages:
+2.  Install the `dplyr`, `mgcv`, and `data.table` packages:
    ```r
-   install.packages(c("dplyr", "lsr"))
+   install.packages(c("dplyr", "mgcv", "data.table"))
 ```
 ## Demo
- Run the script `Confounders_colon_transverse.r`:
+ Run the script `GAM.r`:
    ```r
-   source("Confounders_colon_transverse.r")
+   source("GAM.r")
 ```
 ## Instructions for use
-- Ensure input `colon_transverse_TPM_with_Meta` is in the same directory as the script.
-- The expected output is `gene_correlations_colon_transverse.csv`.
-- Expected run time: 2 seconds
+- Ensure inputs are in the same directory as the script.
+- The expected output is `Pancreas_RawTPM_Output_Testing`.
+
