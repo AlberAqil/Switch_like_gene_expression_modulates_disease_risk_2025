@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 [![DOI](https://img.shields.io/badge/DOI-10.1101%2F2024.08.24.609537-blue)](https://doi.org/10.1101/2024.08.24.609537)
 
-This directory contains an R script to analyze potential confounders in gene expression datasets related to colon transverse tissue.
+This directory contains an R script to correct for the effects of confounders on TPM levels.
 
 ## This directory contains the following three files:
 
