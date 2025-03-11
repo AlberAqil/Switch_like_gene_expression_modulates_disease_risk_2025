@@ -3,7 +3,8 @@
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 [![DOI](https://img.shields.io/badge/DOI-10.1101%2F2024.08.24.609537-blue)](https://doi.org/10.1101/2024.08.24.609537)
 
-This directory contains the R script for performing a Dip Test of Unimodality on gene expression data to analyze disease susceptibility.
+This directory contains the R script for performing a Dip Test of Unimodality on raw log(TPM + 1) data from the vagina.
+In the study, we also performed dip test on confounder-corrected values of log(TPM + 1) using a similar script.
 
 ## This directory contains the following three files:
 
