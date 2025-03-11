@@ -4,8 +4,8 @@ library(dplyr)  # For efficient data manipulation
 library(data.table)  # For fast data reading/writing
 
 ### File paths
-expression_file <- "/projects/academic/omergokc/Alber/bimodality_final/pancreas/pancreas_expression_GenesofInterest"
-metadata_file <- "/projects/academic/omergokc/Alber/Bimodality_Reviews/NEW_STRATEGY/PCA/pancreas/pca_pancreas.csv"
+expression_file <- "pancreas_expression_GenesofInterest"
+metadata_file <- "pca_pancreas.csv"
 
 ### Load data
 expression_data <- fread(expression_file)
