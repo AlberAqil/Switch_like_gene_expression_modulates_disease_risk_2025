@@ -8,7 +8,7 @@ This directory contains an R script to correct for the effects of confounders on
 ## This directory contains the following three files:
 
 1) `GAM.r`  
- This R script corrects raw log(TPM + 1) for condfounders using residuals from generalized additive models. Instead of using raw confounders, we use PCs derived from confounders to avoid multicollinearity.
+ This R script corrects raw log(TPM + 1) for confounders using residuals from generalized additive models. Instead of using raw confounders, we use PCs derived from confounders to avoid multicollinearity.
 
 2) `pca_pancreas.csv`  
  This is the first input file for the R script. It contains PC scores derived from the confounder matrix for each individual in pancreas.
