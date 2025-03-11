@@ -8,9 +8,9 @@ This repository contains scripts and data for analyzing switch-like gene express
 ## Repository structure
 
 - [Dip_test/](Dip_test/): Contains the R script for conducting the dip test to identify bimodal expression.
-- [Sex_bias/](Sex_bias/): Contains the R script for analyzing sex-biased gene expression.
-- [Confounders/](Confounders/): Contains the R script for measuring the correlation between gene expression levels and confounding variables.
-- [Binary_encoding/](Binary_encoding/): Contains the R script for binary encoding of gene expression states (on/off).
+- [Sex_bias/](Sex_bias/): Contains the R script for analyzing sex-biased, age-biased, and BMI-biased gene expression.
+- [Confounders/](Confounders/): Contains the R script for correcting TPM levels for the effects of confounders.
+
 
 The README files within each directory detail the demo and instructions for use for each code.
 
@@ -32,7 +32,7 @@ cd Switch_like_gene_expression_modulates_disease_susceptibility_2024
 1. Install R from [CRAN](https://cran.r-project.org/).
 2. Install the required R packages as outlined in each subdirectory’s README or use the following to install all packages at once:
 ```r
-install.packages(c("diptest", "dplyr", "readr", "effsize", "lsr"))
+install.packages(c("diptest", "dplyr", "effsize", "mcgv", "data.table"))
 ```
 ## Usage and demo
 
