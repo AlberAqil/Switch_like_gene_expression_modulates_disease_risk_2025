@@ -6,7 +6,7 @@ x = y[, -1]
 result <- data.frame(
   Column = colnames(x),
   p_value = sapply(1:ncol(x), function(i) {
-    dip.test(log(1+x[, i],10),simulate.p.value=TRUE,B=5000 )$p.value
+    dip.test(log(1+x[, i],10),simulate.p.value=TRUE,B=10000 )$p.value
   }), D = sapply(1:ncol(x), function(i) {
     dip.test(log(1+x[, i],10),simulate.p.value=FALSE )$statistic}), 
   mean_value = colMeans(log(1+x,10)),
