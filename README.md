@@ -23,8 +23,8 @@ The README files within each directory detail the demo and instructions for use 
 ## Clone the repository
 
 ```bash
-git clone https://github.com/AlberAqil/Switch_like_gene_expression_modulates_disease_susceptibility_2024.git
-cd Switch_like_gene_expression_modulates_disease_susceptibility_2024
+git clone https://github.com/AlberAqil/Switch_like_gene_expression_modulates_disease_risk_2025.git
+cd Switch_like_gene_expression_modulates_disease_risk_2025
 ```
 
 ## Installation guide
