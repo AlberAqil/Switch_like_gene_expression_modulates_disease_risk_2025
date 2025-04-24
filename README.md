@@ -1,8 +1,7 @@
 # Switch-like Gene Expression Modulates Disease Risk
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-[![DOI](https://img.shields.io/badge/DOI-10.1101%2F2024.08.24.609537-blue)](https://doi.org/10.1101/2024.08.24.609537)
-
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.15270596-blue)](https://doi.org/10.5281/zenodo.15270596)
 This repository contains scripts and data for analyzing switch-like gene expression patterns across tissues, adjusting for confounders, and identifying sex-biased genes. These analyses were conducted as part of the study "Switch-like Gene Expression Modulates Disease Risk." 
 
 ## Repository structure
