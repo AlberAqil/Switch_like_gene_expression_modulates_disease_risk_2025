@@ -1,7 +1,7 @@
 
 #vagina_expression_GenesofInterest is the file containing TPM levels for various individuals in the vagina
 #This script applies the dip test of the distribution of log(TPM + 1) as opposed to the distribution of raw TPMs.
-#This script calculates the dip statistic D, the associated p-value, mean of the distribution, median of the distribution, the first quartile, the 3 quartile, and the standard deviation.
+#This script calculates the dip statistic D, the associated p-value, mean of the distribution, median of the distribution, the first quartile, the third quartile, and the standard deviation.
 y <- read.table("vagina_expression_GenesofInterest", header = TRUE)
 library("diptest")
 x = y[, -1]
