@@ -42,7 +42,7 @@ Each script in the subdirectories can be run independently, with detailed instru
 
 If you use this code, please cite:
 
-Aqil, A. et al. "Switch-like Gene Expression Modulates Disease Susceptibility." BioRxiv, 2024. https://doi.org/10.1101/2024.08.24.609537
+Aqil, A. et al. "Switch-like Gene Expression Modulates Disease Risk." *Nature Communications*, 2025. [https://doi.org/10.1038/s41467-025-60513-x](https://doi.org/10.1038/s41467-025-60513-x)
 
 ## License
 This project is covered under the Apache 2.0 License.
